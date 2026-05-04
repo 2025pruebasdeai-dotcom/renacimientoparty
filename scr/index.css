@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-parchment-100: #f4ece1;
+  --color-parchment-200: #fcf9f5;
+  --color-parchment-300: #e9dfcc;
+  --color-parchment-400: #d4c3a3;
+  --color-ink-900: #2c241e;
+  --color-ink-800: #5c4033;
+  --color-gold-500: #b38b4d;
+  --color-crimson-900: #8b0000;
+  
+  --font-cinzel: 'Cinzel', serif;
+  --font-baskerville: 'Libre Baskerville', serif;
+}
+
+body {
+  background-color: var(--color-parchment-100);
+  color: var(--color-ink-900);
+  font-family: var(--font-baskerville);
+}
